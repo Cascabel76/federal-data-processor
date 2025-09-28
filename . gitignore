@@ -1,0 +1,12 @@
+# virtual envs
+.venv/
+venv/
+env/
+# python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+# editor/OS
+.vscode/
+.DS_Store
