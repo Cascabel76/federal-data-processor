@@ -1,7 +1,14 @@
+# virtual envs
 .venv/
-.venv
-src/fdp/__pycache__/__init__.cpython-311.pyc
-src/fdp/__pycache__/cli.cpython-311.pyc
-src/fdp/tests/__pycache__/test_downloader.cpython-311-pytest-8.4.2.pyc
-src/fdp/tests/__pycache__/test_loader.cpython-311-pytest-8.4.2.pyc
-src/fdp/tests/__pycache__/test_parser.cpython-311-pytest-8.4.2.pyc
+venv/
+env/
+
+# python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# OS/editor
+.DS_Store
+.vscode/
