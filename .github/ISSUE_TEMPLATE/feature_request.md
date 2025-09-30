@@ -1,8 +1,8 @@
 ---
-name: Bug Report
-about: Create a report to help us improve
+name: Feature request
+about: Suggest an idea for this project
 title: ''
-labels: bug
+labels: feature
 assignees: Cascabel76
 
 ---
