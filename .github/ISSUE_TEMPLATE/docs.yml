@@ -1,0 +1,12 @@
+name: Docs
+description: Documentation fix or addition
+title: "[DOCS] "
+labels: [documentation]
+body:
+  - type: textarea
+    id: update
+    attributes:
+      label: What needs updating?
+      description: Mention files/pages to change
+    validations:
+      required: true
