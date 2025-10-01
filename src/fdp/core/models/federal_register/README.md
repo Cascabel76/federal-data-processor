@@ -1,0 +1,1 @@
+This should eventually outline the structure and relationships of the dataclasses that are constructed here

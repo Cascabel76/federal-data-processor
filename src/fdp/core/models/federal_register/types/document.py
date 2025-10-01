@@ -1,26 +1,12 @@
+#this is a base document dataclass that is meant to be agnotisc to documents.
 from dataclasses import dataclass
 from datetime import date, datetime
-from typing import List, Optional, Dict
+from typing import Optional, Dict, List
 
-
-@dataclass
-class Agency:
-    ''''''
-    agency_id: str
-    name: str
-
-@dataclass
-class Topic:
-    ''' '''
-    name: str
-
-@dataclass
-class Attachment:
-    ''' '''
-    attatchment_id: str
-    type: str
-    url: str
-    sha256: Optional[str] = None
+#importing sub-dataclasses from the typing models
+from agency import Agency
+from topic import Topic
+from attachment import Attachment
 
 @dataclass
 class Document:
@@ -45,29 +31,3 @@ class Document:
     agencies: List[Agency] = None
     topics: List[Topic] = None
     attachments: List[Attachment] = None
-
-#optional specialized classes for future use
-@dataclass 
-class ExecutiveOrder(Document):
-    ''' a class that defines executive order information '''
-    eo_number: str
-    president: str
-
-@dataclass
-class Rule:
-    ''' '''
-
-@dataclass
-class Notice:
-    ''' '''
-
-@dataclass
-class PresidentialDocuments:
-    ''' '''
-
-@dataclass
-class ProposedRule:
-    ''' '''
-@dataclass
-class SignifigantDocument:
-    ''' '''
