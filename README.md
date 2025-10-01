@@ -1,7 +1,8 @@
 # Federal Data Processor (FDP)
 
 A modular ETL platform for ingesting, normalizing, and querying U.S. federal public data (starting with the Federal Register). The repo emphasizes clear boundaries, testability, and source-agnostic core utilities so we can add new data sources without rework.
-
+---
+https://github.com/users/Cascabel76/projects/9
 ---
 
 ## Quickstart
