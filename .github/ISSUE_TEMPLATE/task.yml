@@ -1,0 +1,20 @@
+name: Task
+description: General work item
+title: "[TASK] "
+labels: [task]
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      description: One-liner for what this task achieves
+    validations:
+      required: true
+
+  - type: textarea
+    id: todos
+    attributes:
+      label: To-dos
+      placeholder: |
+        - [ ] Step 1
+        - [ ] Step 2
