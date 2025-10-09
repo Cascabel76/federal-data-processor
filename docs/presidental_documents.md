@@ -8,6 +8,19 @@
 *The structure of inheritance*
 
 ---
+## Types of Presidental Documents
+
+- Executive Orders
+- Proclamation
+- Memorandums
+- Presidential Order
+- Determination
+- Notice
+- Other
+
+**The most common presidential documents are executive orders and proclamations**
+
+---
 
 ## Executive Orders
 
