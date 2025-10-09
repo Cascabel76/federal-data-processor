@@ -155,3 +155,5 @@
 * **Cursor** — a durable pointer (timestamp or ID) marking progress through the source.
 * **Idempotent upsert** — safe repeatable writes keyed by stable identifiers.
 * **DLQ (dead‑letter queue)** — storage for failed records pending manual or automated reprocess.
+
+---
