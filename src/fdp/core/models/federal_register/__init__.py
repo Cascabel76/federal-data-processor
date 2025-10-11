@@ -4,3 +4,13 @@ from .types.executive_order import ExecutiveOrder
 from .types.agency import Agency
 from .types.attachment import Attachment
 from .types.topic import Topic
+
+
+__all__ = [
+    "Document",
+    "PresidentialDocument",
+    "ExecutiveOrder",
+    "Agency",
+    "Attachment",
+    "Topic",
+]
