@@ -1,15 +1,16 @@
-from document import Document
 from dataclasses import dataclass
 from datetime import date
 from typing import Optional
 
-@dataclass
+from .document import Document
+
+@dataclass(frozen=True) #deliniates immutability for this class
 class PresidentialDocument(Document):
-    presidental_doc_num: int
-    prcolamation_number: int
+    presidental_document_number: int
+    proclamation_number: int
     president: str
     signing_date: Optional[date]
 
-# UNSURE OF THESE
-    subtype: str
-    type: str
+    subtype: Optional[str]
+    document_type: Optional[str] #the unique type of presidental documents
+    
